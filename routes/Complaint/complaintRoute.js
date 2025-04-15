@@ -6,9 +6,9 @@ const { getProductsByComplaint } = require('../../controllers/Complaint/getProdu
 const { getInvoiceByClient } = require('../../controllers/Complaint/getInvoiceByClient');
 const { ComplaintOrder } = require('../../controllers/Complaint/Complaint_Order/complaintOrder');
 const { complaintChallan } = require('../../controllers/Complaint/Complaint Challan/complaintChallan');
-const { getComplaintByOrder } = require('../../controllers/Complaint/Get Complaint By/getComplaintbyOrder');
-const { getComplaintByChallan } = require('../../controllers/Complaint/Get Complaint By/getComplaintByChallan');
-const { getComplaintByInvoice } = require('../../controllers/Complaint/Get Complaint By/getComplaintByInvoice');
+const { getComplaintByOrder } = require('../../controllers/Complaint/GetComplaintBy/getComplaintbyOrder');
+const { getComplaintByChallan } = require('../../controllers/Complaint/GetComplaintBy/getComplaintByChallan');
+const { getComplaintByInvoice } = require('../../controllers/Complaint/GetComplaintBy/getComplaintByInvoice');
 const router = express.Router();
 
 
