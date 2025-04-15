@@ -75,6 +75,7 @@ app.use('/api/payment', require('./routes/Payment/paymentRoute'))
 
 
 // Complaint routes
+// app.use('/api/complaint', require('./routes/Complaint/complaintRoute'))
 app.use('/api/complaint', require('./routes/Complaint/complaintRoute'))
 
 // update Routes
