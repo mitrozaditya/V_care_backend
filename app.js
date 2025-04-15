@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
-const routes = require('./routes/route');
+// const routes = require('./routes/route');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
